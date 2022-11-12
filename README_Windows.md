@@ -6,7 +6,7 @@
 
 ### Comandos para execução do experimento:
 
-####Criações (tabela, inserções e index)
+#### Criações (tabela, inserções e index)
 
 - Criar uma tabela
 
