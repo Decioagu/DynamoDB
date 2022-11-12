@@ -1,5 +1,4 @@
 # dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
 
 ### Serviço utilizado
   - Amazon DynamoDB
@@ -27,7 +26,7 @@ aws dynamodb create-table \
 ```
 
 
-> No Windows - é preciso tirar o \, tabulações, quebras de linhas e espaços desnecessários
+> No Windows - é preciso tirar o \, tabulações, quebras de linhas e espaços desnecessários ou havera erro no Windows PowerShell
 
 ```
 aws dynamodb create-table --table-name Music --attribute-definitions AttributeName=Artist,AttributeType=S AttributeName=SongTitle,AttributeType=S --key-schema AttributeName=Artist,KeyType=HASH AttributeName=SongTitle,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5
